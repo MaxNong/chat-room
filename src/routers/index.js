@@ -1,28 +1,10 @@
+import React from 'react'
+import { Route } from 'react-router-dom'
 import index from '../views/index'
+import about from '../views/about'
 const routerConf = [
-	{
-		path: '/',
-		component: index
-		//   indexRoute: { component: index },
-		//   childRoutes: [
-		//     { path: 'about', component: index },
-		//     { path: 'inbox',
-		//       component: index,
-		//       childRoutes: [
-		//         { path: '/messages/:id', component: index }
-		//         // { path: 'messages/:id',
-		//         //   onEnter: function (nextState, replaceState) {
-		//         //     replaceState(null, '/messages/' + nextState.params.id)
-		//         //   }
-		//         // }
-		//       ]
-		//     }
-		//   ]
-	},
-	{
-		path: '*',
-		redirect: '/'
-	}
+	(<Route key="indexPage" exact path="/" component={index}/>),
+	(<Route key="aboutPage" exact path="/about" component={about}/>)
 ]
 
 export default routerConf

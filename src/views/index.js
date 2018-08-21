@@ -1,13 +1,38 @@
 import React from 'react';
-class Header extends React.Component {
+import '@/index.scss'
+import { Header } from 'containers'
+import { Sheet } from 'sheet'
+class IndexPage extends React.Component {
 	render() {
+    let sheetList = [
+      {
+        title: '标题1',
+        text: '内容1'
+      },
+      {
+        title: '标题1',
+        text: '内容1'
+      },
+      {
+        title: '标题1',
+        text: '内容1'
+      },
+      {
+        title: '标题1',
+        text: '内容1'
+      }
+    ]
 		return (
 			<div>
-				<h1>React学习</h1>
+			  <Header></Header>
+				<div className="search-box">
+			  	<input className='search' placeholder="搜索"/>
+				</div>
+        <Sheet sheetList={sheetList}></Sheet>
 			</div>
 		)
 	}
 }
 
-export default Header
+export default IndexPage
 

@@ -1,8 +1,0 @@
-module.export = {
-    'react-native': 'react-native-web',
-
-      
-     
-      'react-native': 'react-native-web',
-    },
-}

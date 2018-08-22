@@ -32,12 +32,39 @@ class ThinSlice extends React.Component {
   render () {
     return (
       <div className="thin-slice-box">
-        <Icon href='icon-dingyuehao' size='20'></Icon>
-        <span className="thinText">{'钱包'}</span>
+      <div className="left-icon">
+        <Icon href={this.props.obj.icon} size='20'></Icon>
+        </div>
+        <span className="thinText">{this.props.obj.text}</span>
+        <div className="right-icon" >
         <Icon href='icon-jiantou' size='20'></Icon>
+        </div>
       </div>
     )
   }
 }
 
-export {Sheet, ThinSlice}
+class GroupSheet extends React.Component {
+  render () {
+    let groupSheetList = this.props.sheetList
+    return (
+      <div>
+        {groupSheetList.map((sheet, i) => {
+          return (
+            <div key={i} className="thin-slice-box">
+              <div className="left-icon">
+                <Icon href={sheet.icon} size='20'></Icon>
+              </div>
+              <span className="thinText">{sheet.text}</span>
+              <div className="right-icon" >
+                  <Icon href='icon-jiantou' size='20'></Icon>
+              </div>
+           </div>
+          )
+        })}
+      </div>
+    )
+  }
+}
+
+export {Sheet, ThinSlice, GroupSheet}

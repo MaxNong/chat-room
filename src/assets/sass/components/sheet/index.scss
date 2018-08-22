@@ -49,3 +49,17 @@
     color: #333;
   }
 }
+.left-icon{
+  float: left;
+  padding: 0 10px;
+  svg{
+    vertical-align: middle;
+  }
+}
+.right-icon{
+  float: right;
+  padding: 0 10px;
+  svg{
+    vertical-align: middle;
+  }
+}

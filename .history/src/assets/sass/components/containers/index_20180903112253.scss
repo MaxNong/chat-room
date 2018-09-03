@@ -1,0 +1,36 @@
+.headerBar{
+  background-color: #1D1B20;
+  height: 40px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  }
+
+  //Footer组件
+  .footerBar{
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8F8FA;
+    ul{
+      width: 100%;
+      padding: 10px 0 5px 0;
+      p{
+        font-size: 12px;
+      }
+      li{
+        display:inline-block;
+        width: 25%;
+        text-align: center;
+      }
+    }
+  }
+  .containerBox{
+    overflow: scroll;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}

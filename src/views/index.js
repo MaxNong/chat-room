@@ -1,8 +1,7 @@
 import React from 'react';
 import '@/views/index.scss'
-import { Header, Footer} from 'containers'
+import { Container} from 'containers'
 import { Sheet } from 'sheet'
-import {Icon} from 'icon'
 class IndexPage extends React.Component {
 	render() {
     let sheetList = [
@@ -25,12 +24,12 @@ class IndexPage extends React.Component {
     ]
 		return (
 			<div>
-			  <Header></Header>
+			  <Container title="微信">
 				<div className="search-box">
 			  	<input className='search' placeholder="搜索"/>
 				</div>
         <Sheet sheetList={sheetList}></Sheet>
-        <Footer></Footer>
+        </Container>
 			</div>
 		)
 	}

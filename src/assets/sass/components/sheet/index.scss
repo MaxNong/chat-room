@@ -21,9 +21,16 @@
   // line-height: 60px;
   display: table;
   span{
-    display: table-row;
+    display: block;
     // line-height: 30px;
     color: #333;
+    &:first-child{
+      line-height: 18px;
+     }
+     &:last-child{
+      margin-top: 10px;
+      line-height: 12px;
+     }
   }
   .h-titie{
     font-size: 18px;

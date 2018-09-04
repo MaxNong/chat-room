@@ -1,0 +1,52 @@
+.chatBox{
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 50px;
+  background: #F5F5F7;
+  input{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 50px;
+    width: 60px;
+  }
+}
+.chatP{
+  // background: white;
+  // height: 36px;
+  // line-height: 40px;
+  // font-size: 16px;
+  // padding-left: 15px;
+  // margin-bottom: 6px;
+  // vertical-align: top;
+  background: white;
+  /* height: 36px; */
+  /* line-height: 40px; */
+  font-size: 16px;
+  /* padding-left: 15px; */
+  /* margin-bottom: 6px; */
+  vertical-align: top;
+  /* line-height: 40px; */
+  display: inline-block;
+  margin-left: 10px;
+  /* padding: 4px; */
+  font-size: 16px;
+  box-sizing: border-box;
+  /* line-height: 0; */
+  padding: 11px;
+}
+.chatContainer{
+  box-sizing: border-box;
+  padding: 10px;
+}

@@ -1,9 +1,9 @@
 import React from 'react'
-import './index.css'
+import ReactDOM from 'react-dom'
+
 import { BrowserRouter as Router, Switch } from 'react-router-dom'
 import routerConfig from 'routerConfig'
-import ReactDOM from 'react-dom'
-import '@/base.scss'
+import '@/assets/sass/base.scss'
 import './lib/iconfont.js'
 
 

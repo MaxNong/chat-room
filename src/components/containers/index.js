@@ -1,5 +1,5 @@
 import React from 'react'
-import '@/components/containers/index.scss'
+import '@/assets/sass/components/containers/index.scss'
 import { Icon } from 'icon'
 import { Link, withRouter } from 'react-router-dom'
 

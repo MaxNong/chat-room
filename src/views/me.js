@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'containers'
 import { ThinSlice, GroupSheet } from 'sheet'
-import '@/views/me.scss'
+import '@/assets/sass/views/me.scss'
 
 class Me extends React.Component {
 	render() {

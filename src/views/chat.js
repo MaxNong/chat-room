@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlowHeader } from 'containers'
-import '@/views/chat.scss'
+import '@/assets/sass/views/chat.scss'
 import { Icon } from 'icon'
 
 class Chat extends React.Component {

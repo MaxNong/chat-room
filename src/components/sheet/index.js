@@ -1,5 +1,5 @@
 import React from 'react'
-import '@/components/sheet/index.scss'
+import '@/assets/sass/components/sheet/index.scss'
 import {Icon} from 'icon'
 
 class Sheet extends React.Component {

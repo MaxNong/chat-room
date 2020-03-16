@@ -1,5 +1,5 @@
 import React from 'react';
-import '@/views/index.scss'
+import '@/assets/sass/views/index.scss'
 import { Container} from 'containers'
 import { Sheet } from 'sheet'
 class IndexPage extends React.Component {

@@ -9,7 +9,7 @@ class IndexPage extends React.Component {
 	render() {
     let sheetList = [
       {
-        title: '群聊',
+        title: '群聊11',
         text: '[0条]暂无消息'
       }
       // {
